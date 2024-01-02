@@ -1,7 +1,7 @@
 from hotdog_not_hotdog import HotdogNotHotdogModel
 from constant import RuntimeMode
 
-DATA_ROOT_PATH = '/data'
+DATA_ROOT_PATH = '/tmp/data'
 model = HotdogNotHotdogModel(
     model_path="hotdog_not_hotdog_foundation_ai.keras",
     training_data_path=f"{DATA_ROOT_PATH}/train",
